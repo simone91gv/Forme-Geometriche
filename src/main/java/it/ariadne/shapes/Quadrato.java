@@ -12,7 +12,7 @@ public class Quadrato implements Forma {
 
 	@Override
 	public double calcolaPerimetro() {
-		return this.lato*4;
+		return Math.abs(this.lato*4);
 	}
 
 	@Override
